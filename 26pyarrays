@@ -1,0 +1,54 @@
+# Python Arrays
+# Python use 'list' instead of arrays
+print ()
+print ("Arrays:")
+print ("-------")
+print ()
+print ("Arrays : Concept of storing multiple values in a single variable")
+print()
+cars = ["Ford", "Volvo", "BMW"]
+print ()
+print ("Access Elements of an Arrays:")
+print ("-----------------------------")
+print ()
+print ("We can access the elements of an array using the index number")
+print (cars[0])
+print (cars[1])
+print (cars[2])
+fruits = ["apple", "orange", "banana"]
+print (fruits)
+print()
+fruits[0] = "None"
+print (fruits)
+print ()
+print ("Looping Through An Arrays:")
+print ("--------------------------")
+print ()
+obj = ["wood", "stone", "glass"]
+for x in obj:
+	print (x)
+print()	
+print ()
+print ("Adding Array Elements:")
+print ("----------------------")
+print ()
+color = ["red", "blue", "green"]
+print (color)
+print()
+print()
+print()
+color.append("white")
+print("After Append")
+print(color)
+print ()
+print()
+print ("Removing Array Elements:")
+print ("----------------------")
+print ()
+color.pop(3)
+print(color)
+
+print("Using 'remove()' Function to remove the content")
+color.remove("blue")
+print(color)
+

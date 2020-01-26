@@ -1,0 +1,32 @@
+# Python Classes and Objects
+# Python is a object oriented pgm language
+print ("Create a class")
+print ("--------------")
+print ("To create a class use the keyword 'class' ")
+class MyClass:
+	x = 5
+	y = 10
+print()
+print()
+print ("Create a class")
+print ("--------------")
+print ("Object: it can be created using the class")
+p1 = MyClass()
+print (p1.y)
+print()
+print()
+print ("the _init_() Function")
+print ("---------------------")
+class Person:
+	# The _init_ function is called automatically every time the class is being used to create a new object
+	def _init_(self, name, age):
+		self.name = name
+		self.age = age
+
+	def myfunc(self):
+		print("Hello my name is" + self.name)
+
+p1 = Person("John", 36)		
+p1.myfunc()
+
+
